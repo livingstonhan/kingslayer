@@ -1,0 +1,982 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.2.3",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "chooserole_base.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5208,
+              "Y": 0.5
+            },
+            "RightMargin": 460.0,
+            "BottomMargin": 320.0,
+            "Tag": 5,
+            "Children": [
+              {
+                "FontSize": 48,
+                "LabelText": "英雄\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 20.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.04,
+                  "Y": 0.9375
+                },
+                "PreSize": {
+                  "X": 0.0417,
+                  "Y": 0.0375
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 384.0,
+                "TopMargin": 20.0,
+                "BottomMargin": 242.0,
+                "Tag": 3,
+                "ActionTag": 1603555766,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 58.0
+                },
+                "Name": "heroname",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "攻击力：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.718,
+                  "Y": 187.6889
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1414,
+                  "Y": 0.5865
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 30.718,
+                "RightMargin": 389.282,
+                "TopMargin": 120.3111,
+                "BottomMargin": 175.6889,
+                "Tag": 8,
+                "ActionTag": -1019699102,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "heroatk",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "防御力：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.718,
+                  "Y": 157.9178
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1414,
+                  "Y": 0.4935
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 30.718,
+                "RightMargin": 389.282,
+                "TopMargin": 150.0822,
+                "BottomMargin": 145.9178,
+                "Tag": 9,
+                "ActionTag": 1288580002,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "herodef",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "命中率：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.718,
+                  "Y": 128.147
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1414,
+                  "Y": 0.4005
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 30.718,
+                "RightMargin": 389.282,
+                "TopMargin": 179.853,
+                "BottomMargin": 116.147,
+                "Tag": 11,
+                "ActionTag": 1124222720,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "heroacu",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "暴击率：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.718,
+                  "Y": 98.3762
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1414,
+                  "Y": 0.3074
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 30.718,
+                "RightMargin": 389.282,
+                "TopMargin": 209.6237,
+                "BottomMargin": 86.3762,
+                "Tag": 10,
+                "ActionTag": 1668792983,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "heroextr",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "闪避率：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.718,
+                  "Y": 68.6051
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1414,
+                  "Y": 0.2144
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 30.718,
+                "RightMargin": 389.282,
+                "TopMargin": 239.3949,
+                "BottomMargin": 56.6051,
+                "Tag": 12,
+                "ActionTag": 948294836,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "herodod",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ImageFileData": {
+                  "Type": "Default",
+                  "Path": "Default/LoadingBarFile.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 219,
+                  "G": 18,
+                  "B": 18
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.52,
+                  "Y": 0.8125
+                },
+                "PreSize": {
+                  "X": 0.4,
+                  "Y": 0.0437
+                },
+                "LeftMargin": 160.0,
+                "RightMargin": 140.0,
+                "TopMargin": 53.0,
+                "BottomMargin": 253.0,
+                "Tag": 21,
+                "ActionTag": 882579254,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 14.0
+                },
+                "Name": "herohp",
+                "ctype": "LoadingBarObjectData"
+              }
+            ],
+            "ActionTag": -1152663474,
+            "Size": {
+              "X": 500.0,
+              "Y": 320.0
+            },
+            "Name": "HeroPanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "chooserole_base.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 173,
+              "G": 216,
+              "B": 230
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewY": 0.0008,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.5208,
+              "Y": 0.5
+            },
+            "VerticalEdge": "TopEdge",
+            "RightMargin": 460.0,
+            "TopMargin": 320.0,
+            "Tag": 6,
+            "Children": [
+              {
+                "FontSize": 48,
+                "LabelText": "敌人\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 20.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.04,
+                  "Y": 0.9375
+                },
+                "PreSize": {
+                  "X": 0.1,
+                  "Y": 0.1813
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 384.0,
+                "TopMargin": 20.0,
+                "BottomMargin": 242.0,
+                "Tag": 4,
+                "ActionTag": -542564768,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 58.0
+                },
+                "Name": "badname",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "攻击力：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.095,
+                  "Y": 190.6419
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1482,
+                  "Y": 0.5958
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 34.095,
+                "RightMargin": 385.905,
+                "TopMargin": 117.3581,
+                "BottomMargin": 178.6419,
+                "Tag": 13,
+                "ActionTag": 972933021,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "badatk",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "防御力：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.095,
+                  "Y": 160.8711
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1482,
+                  "Y": 0.5027
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 34.095,
+                "RightMargin": 385.905,
+                "TopMargin": 147.1289,
+                "BottomMargin": 148.8711,
+                "Tag": 14,
+                "ActionTag": 1763081193,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "baddef",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "命中率：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.095,
+                  "Y": 131.0997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1482,
+                  "Y": 0.4097
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 34.095,
+                "RightMargin": 385.905,
+                "TopMargin": 176.9003,
+                "BottomMargin": 119.0997,
+                "Tag": 15,
+                "ActionTag": 397890530,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "badacu",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "暴击率：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.095,
+                  "Y": 101.3288
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1482,
+                  "Y": 0.3167
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 34.095,
+                "RightMargin": 385.905,
+                "TopMargin": 206.6712,
+                "BottomMargin": 89.3288,
+                "Tag": 16,
+                "ActionTag": -1822692369,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "badextr",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "闪避率：\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "jlyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.095,
+                  "Y": 71.5576
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1482,
+                  "Y": 0.2236
+                },
+                "PreSize": {
+                  "X": 0.12,
+                  "Y": 0.075
+                },
+                "LeftMargin": 34.095,
+                "RightMargin": 385.905,
+                "TopMargin": 236.4424,
+                "BottomMargin": 59.5576,
+                "Tag": 17,
+                "ActionTag": 1107582470,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 24.0
+                },
+                "Name": "baddod",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ImageFileData": {
+                  "Type": "Default",
+                  "Path": "Default/LoadingBarFile.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 219,
+                  "G": 18,
+                  "B": 18
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.52,
+                  "Y": 0.8125
+                },
+                "PreSize": {
+                  "X": 0.4,
+                  "Y": 0.0437
+                },
+                "LeftMargin": 160.0,
+                "RightMargin": 140.0,
+                "TopMargin": 53.0,
+                "BottomMargin": 253.0,
+                "Tag": 22,
+                "ActionTag": -1662678049,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 14.0
+                },
+                "Name": "badhp",
+                "ctype": "LoadingBarObjectData"
+              }
+            ],
+            "ActionTag": 1414004998,
+            "Size": {
+              "X": 500.0,
+              "Y": 320.0
+            },
+            "Name": "BadPanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心信心\n\n",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 537.6753,
+              "Y": 682.3767
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5601,
+              "Y": 1.0662
+            },
+            "PreSize": {
+              "X": 0.4583,
+              "Y": 1.0938
+            },
+            "LeftMargin": 537.6753,
+            "RightMargin": -17.6753,
+            "TopMargin": -42.3767,
+            "BottomMargin": -17.6233,
+            "Tag": 27,
+            "Children": [
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 460,
+                  "Height": 640
+                },
+                "ScrollDirectionType": "Vertical",
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": -17.9956,
+                  "Y": 649.6951
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0409,
+                  "Y": 0.9281
+                },
+                "PreSize": {
+                  "X": 1.0455,
+                  "Y": 0.9143
+                },
+                "LeftMargin": -17.9956,
+                "RightMargin": -2.0044,
+                "TopMargin": 50.3049,
+                "BottomMargin": 9.6951,
+                "Tag": 23,
+                "ActionTag": 392045162,
+                "Size": {
+                  "X": 460.0,
+                  "Y": 640.0
+                },
+                "Name": "gameinfo",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": -1382236270,
+            "Size": {
+              "X": 440.0,
+              "Y": 700.0
+            },
+            "Name": "gameinfo_text",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "chooserole_base.png",
+        "Default/LoadingBarFile.png",
+        "jlyuan.ttf"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
