@@ -5,7 +5,6 @@
       <RootFolder Name=".">
         <Project Name="MainScene.csd" Type="Scene" />
         <Image Name="HelloWorld.png" />
-        <TTF Name="jlyuan.ttf" />
         <Image Name="chooserole_base.png" />
       </RootFolder>
     </Group>
